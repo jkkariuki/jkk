@@ -7,15 +7,16 @@ import image from "../../images/profileImage.jpg"
 const About = () =>
 <Container id={"aboutContainer"} fluid >
 
-<Row>
+<Row style={{backgroundColor : "green"}}>
 
 
 
+<Nav id={"nav"}/>
+
+        <Col id={"imageDiv"} size="md-6 sm-12">
         
-        <Col size="md-6 sm-12">
-        
 
-        <div id={"imageDiv"}>
+        <div >
         <img style={{height: "100%" , width: "100%"}} src={image} >
 
         </img>
@@ -26,10 +27,12 @@ const About = () =>
         </Col>
 
         <Col size="md-6 sm-12">
-        <p style={{paddingTop:"200px", color: "white"}}>
-        <h1>James Kariuki</h1></p>
 
-        <Nav style={{textAlign: "right"}}/>
+        <p style={{paddingTop:"150px", color: "white", fontSize: "20px"}}>
+        <h1>James Kariuki</h1>
+        Cras id massa ut leo faucibus gravida. Quisque eu lacus gravida, auctor tortor ac, elementum ligula. Quisque ac odio semper, facilisis ante in, ornare purus. Proin convallis neque vehicula lorem feugiat accumsan. Integer commodo ipsum lorem, ac sodales lectus rhoncus nec. Phasellus consectetur arcu ac lectus porttitor dapibus. Cras mattis venenatis vulputate. Pellentesque mauris nunc, luctus nec nunc ac, laoreet tristique diam. Aenean ac efficitur dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        </p>
+
         </Col>
         
 

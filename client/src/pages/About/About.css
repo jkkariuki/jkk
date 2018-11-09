@@ -12,4 +12,11 @@
 #aboutContainer{
     background-color: green;
     padding-left: 0px;
+    padding-right: 15px;
+    
+}
+
+#nav{
+    display:inline-block !important;
+    float: right;
 }

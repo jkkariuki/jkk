@@ -19,9 +19,11 @@ class Projects extends React.Component {
   // Map over this.state.friends and render a FriendCard component for each friend object
   render() {
     return (
+      <div>
       
       <Container style={{ background: "white" }} fluid>
-        <Nav style={{color:"navy"}} />
+      <Nav  style={{display:"block", marginBottom: "20px",color:"navy"}} />
+
         <div id={"projectContainer"}>
           <Row id="GAMRrow" >
             <Col id="GAMRid" style={{ display: "inline-block" }}
@@ -93,6 +95,7 @@ Built With MongoDB, Express, React, NodeJs, PassportJs.</p></div> </Col>
           </Row>
         </div>
       </Container>
+      </div>
     );
   }
 }

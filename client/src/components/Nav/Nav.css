@@ -3,14 +3,12 @@ nav.navbar.navbar-default {
   }
 
   .dropdown.show{
-    text-align: left;
-    display: inline-block;
+    text-align: right;
   }
 
   #dropdownMenuLink{
 
     size: 40px;
-
   }
 
   .dropdown-item{
@@ -19,5 +17,7 @@ nav.navbar.navbar-default {
 
   .dropup, .dropdown {
     position: relative;
-    text-align: left;
+    text-align: right;
+    
 }
+

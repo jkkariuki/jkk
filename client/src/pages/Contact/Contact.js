@@ -3,7 +3,10 @@ import { Col, Row, Container } from "../../components/Grid";
 import { Input, TextArea, FormBtn } from "../../components/Form";
 import API from "../../utils/API";
 import Nav from "../../components/Nav/"
-import "./Contact.css"
+import "./Contact.css";
+import linkedin from "../../images/linkedin.png"
+import github from "../../images/github.png"
+import { Link, Redirect } from "react-router-dom";
 
 
 class Contact extends React.Component {
@@ -103,10 +106,11 @@ class Contact extends React.Component {
           <p style={{ marginLeft:"40px",marginRight:"40px" }}>Lorem ipsum </p>
           </div>
           <div>
-            <h1>
-            social media links here
-            </h1>
-            </div>
+            
+            <a target="_blank" href={"www.linkedin.com/in/james-kariuki"}><img className="icon" src={linkedin}/></a>
+            <img className="icon" src={github}/>
+
+          </div>
           </Col>
           
         </Row>

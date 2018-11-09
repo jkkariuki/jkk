@@ -4,7 +4,7 @@ import "./Home.css"
 import Nav from "../../components/Nav/"
 const Home = () =>
 <Container id={"homeContainer"} style={{marginTop: "0%"}} fluid >
-<Nav/>
+<Nav style={{color: "white"}}/>
 <div id={"nameDiv"}>   
 
     <Row>
