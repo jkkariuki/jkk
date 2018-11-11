@@ -107,8 +107,8 @@ class Contact extends React.Component {
           </div>
           <div>
             
-            <a target="_blank" href={"www.linkedin.com/in/james-kariuki"}><img className="icon" src={linkedin}/></a>
-            <img className="icon" src={github}/>
+            <a target="_blank" href={"http://www.linkedin.com/in/james-kariuki"}><img className="icon" src={linkedin}/></a>
+            <a target="_blank" href={"https://github.com/jkkariuki"}><img className="icon" src={github}/></a>
 
           </div>
           </Col>

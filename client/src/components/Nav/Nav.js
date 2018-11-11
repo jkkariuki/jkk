@@ -10,9 +10,12 @@ class Nav extends React.Component {
     const { id, style } = this.props
     return (
       < div id={id} className="dropdown show" >
+        <Link style={{style, display:"inline-block"}} to="/" ><h1 style={style}>JK</h1></Link>
 
         <Link style={{ style }} className="btn btn-secondary  dropdown-toggle" to="/" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          <button type="button" class="btn btn-default" aria-label="Left Align">
+
+
+          <button style={{marginBottom:"20px"}} type="button" class="btn btn-default" aria-label="Left Align">
             <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
           </button>
         </Link>
@@ -43,7 +46,8 @@ class Nav extends React.Component {
 }
 
 Nav.propTypes = {
-  style: PropTypes.string
+  style: PropTypes.string,
+  id: PropTypes.string
 }
 
 export default Nav;

@@ -1,6 +1,6 @@
 #imageDiv{
     max-width: 100%;
-    height: 100%;
+    height: 765px;
     margin-right:auto;
     margin-left:auto;
     background-size: cover;
@@ -8,11 +8,13 @@
     font-family: 'Open Sans', sans-serif;
     color: white;
     border: 5px bold;
+    background-image: url("../../images/profileImage.jpg")
 }
 #aboutContainer{
     background-color: green;
     padding-left: 0px;
     padding-right: 15px;
+    height: 100%x
     
 }
 

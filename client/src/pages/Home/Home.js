@@ -2,9 +2,10 @@ import React from "react";
 import { Col, Row, Container } from "../../components/Grid";
 import "./Home.css"
 import Nav from "../../components/Nav/"
+
 const Home = () =>
 <Container id={"homeContainer"} style={{marginTop: "0%"}} fluid >
-<Nav style={{color: "white"}}/>
+<Nav id="logo" style={{color: "white"}}/>
 <div id={"nameDiv"}>   
 
     <Row>
